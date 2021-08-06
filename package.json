@@ -4,6 +4,10 @@
   "repository": "ssh://git@github.com/massat/zenn.dev",
   "author": "massat <masato.hirai@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article"
+  },
   "dependencies": {
     "zenn-cli": "^0.1.93"
   }
