@@ -1,0 +1,10 @@
+{
+  "name": "zenn.dev",
+  "version": "1.0.0",
+  "repository": "ssh://git@github.com/massat/zenn.dev",
+  "author": "massat <masato.hirai@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.93"
+  }
+}
