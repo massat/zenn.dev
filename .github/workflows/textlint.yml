@@ -29,5 +29,5 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('./yarn.lock') }}
       - name: Install dependencies
         run: yarn --frozen-lockfile
-      - Name: Textlint
+      - name: Textlint
         run: yarn lint
