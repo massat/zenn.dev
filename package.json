@@ -5,10 +5,20 @@
   "author": "massat <masato.hirai@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "preview": "zenn preview",
-    "new:article": "zenn new:article"
+    "lint": "textlint \"*.md\"",
+    "new:article": "zenn new:article",
+    "prepare": "husky install",
+    "preview": "zenn preview"
   },
   "dependencies": {
     "zenn-cli": "^0.1.93"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "textlint": "^12.0.2",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-japanese": "^7.0.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
