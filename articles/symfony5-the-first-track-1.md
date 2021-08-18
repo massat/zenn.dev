@@ -2,13 +2,13 @@
 title: '"Symfony5: The Fast Track"の作業環境を anyenv + phpenv で作って失敗したメモ'
 emoji: "😇"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["aanyenv", "phpenv", "php", "symfony"]
+topics: ["anyenv", "phpenv", "php", "symfony"]
 published: false
 ---
 
 ## TL;DR
 
-Symfony5 の入門として [The Fast Track \- 基礎から最速で学ぶ Symfony 5 入門 \(Symfony Docs\)](https://symfony.com/doc/current/the-fast-track/ja/index.html) の環境を手元に PHP 8 で作ろうとしたが `anyenv` + `phphenv` 環境だとうまくいかなかった。
+Symfony5 の入門として [The Fast Track \- 基礎から最速で学ぶ Symfony 5 入門 \(Symfony Docs\)](https://symfony.com/doc/current/the-fast-track/ja/index.html) の環境を手元に PHP 8 で作ろうとしたが `anyenv` + `phpenv` 環境だとうまくいかなかった。
 
 https://symfony.com/doc/current/the-fast-track/ja/index.html
 
