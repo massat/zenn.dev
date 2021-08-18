@@ -1,12 +1,12 @@
 ---
-title: "phpenvでphp8をインストールした作業メモ"
+title: "anyenv + phpenvでPHP8をインストールした作業メモ"
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["macOS", "php", "phpenv"]
+topics: ["macOS", "php", "anyenv", "phpenv"]
 published: true
 ---
 
-手元の Macbook に phpenv をインストールした作業メモ。
+手元の Macbook に ~~phpenv~~ `anyenv` + `phpenv` 環境で PHP 8 (2021/8/16 修正) をインストールした作業メモ。
 元々色々とパッケージがインストールされていただろう環境での作業なので再現性はなさそうだが、エラーメッセージにしたがって作業していけば大丈夫。
 
 ## 環境
