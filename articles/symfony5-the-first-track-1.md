@@ -3,7 +3,7 @@ title: '"Symfony5: The Fast Track"の作業環境を anyenv + phpenv で作っ�
 emoji: "😇"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["anyenv", "phpenv", "php", "symfony"]
-published: false
+published: true
 ---
 
 ## TL;DR
