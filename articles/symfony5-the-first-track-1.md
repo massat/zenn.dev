@@ -8,7 +8,7 @@ published: true
 
 ## TL;DR
 
-Symfony5 の入門として [The Fast Track \- 基礎から最速で学ぶ Symfony 5 入門 \(Symfony Docs\)](https://symfony.com/doc/current/the-fast-track/ja/index.html) の環境を手元に PHP 8 で作ろうとしたが `anyenv` + `phpenv` 環境だとうまくいかなかった。
+Symfony5 の入門として [The Fast Track \- 基礎から最速で学ぶ Symfony 5 入門 \(Symfony Docs\)](https://symfony.com/doc/current/the-fast-track/ja/index.html) の環境を手元に PHP 8 で作ろうとした。しかし `anyenv` + `phpenv` 環境だとうまくいかなかった。
 
 https://symfony.com/doc/current/the-fast-track/ja/index.html
 
@@ -33,7 +33,7 @@ https://zenn.dev/massat/articles/install-php8-with-phpenv
 8.0.9
 ```
 
-> PHP は 8.0 バージョンを使い、下記の PHP 拡張 がインストール済みになっていることを確認してください。もし入っていなければ今インストールしてください： intl, pdo_pgsql, xsl, amqp, gd, openssl, sodium 。オプションで下記をインストールしてください： redis, curl , zip 。
+> PHP は 8.0 バージョンを使い、下記の PHP 拡張 がインストール済みになっていることを確認してください。もし入っていなければ今インストールしてください： intl, pdo_pgsql, xsl, amqp, gd, openssl, sodium。オプションで下記をインストールしてください： redis, curl, zip。
 
 とあるので module を比べてみる。
 
@@ -292,7 +292,7 @@ To control the version used in a directory, create a .php-version file that cont
 If you're using SymfonyCloud, the version can also be specified in the .symfony.cloud.yaml file.
 ```
 
-`8.0.9` が指定されていることは認識されているものの `but this version is not available` と記述されている 🤔
+`8.0.9` が指定されていることは認識されているものの `but this version is not available` と記述されている。 🤔
 「え、PHP 8 は対応してないの？」と思ったが、ググってたら [こちら](https://zenn.dev/chatii/articles/c464eae220334c) で `anyenv` + `phpenv` の環境に対応していないと述べられていた。(どのように推測なされたかの記述はなかった)
 
 https://zenn.dev/chatii/articles/c464eae220334c
